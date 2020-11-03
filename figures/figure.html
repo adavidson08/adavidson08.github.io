@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Figure</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="figure.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="wrap">
+
+        <header>
+            <div id="box">
+                <h1> Welcome World </h1>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin enim nisl, ultrices vel suscipit nec, consectetur id lectus. Etiam ultricies nisl sed blandit pharetra. Nunc ut malesuada elit. Mauris at nulla eu lacus elementum porta. Donec neque lacus, finibus sed mollis vel, commodo eget est. Proin eget faucibus odio. Fusce risus erat, euismod vel mi vel, rutrum bibendum erat. Nulla eget varius libero. Quisque fermentum dapibus tristique. Ut dapibus eleifend enim, id facilisis ligula ultricies at. Quisque augue purus, hendrerit ut ex non, euismod mollis nunc. Sed interdum, augue a pretium facilisis, lectus nunc lacinia neque, tempor blandit justo libero id augue. Nam laoreet, quam non vehicula convallis, augue lorem viverra arcu, ac fringilla sem sapien quis mauris. Donec libero lacus, ullamcorper at imperdiet vitae, mollis at dolor. Etiam convallis eros ex. Sed bibendum lorem at nisl consequat ultricies.
+
+                Integer pulvinar, metus at tempus viverra, lacus nibh porttitor dui, id blandit arcu turpis sodales risus. Integer pulvinar odio et ex eleifend mollis. Etiam tempus justo sed ex efficitur facilisis. Praesent in diam malesuada, gravida turpis at, mollis mauris. Quisque et leo id nulla fermentum tempus. Morbi ac quam sodales, ornare nisl ac, tristique lorem. Curabitur sed sagittis est, eget placerat neque. Quisque eget hendrerit ante. Etiam semper id libero a volutpat. Etiam ornare, tellus at accumsan facilisis, lorem eros pulvinar ante, in varius erat tellus vitae lectus. Phasellus felis neque, pretium ut nisi ut, congue ultricies neque. Phasellus ex risus, interdum ut venenatis sit amet, hendrerit eget ipsum. Cras aliquet lacus nisl, non tempor diam tempor at.
+            </div>
+        </header>
+
+        <nav>
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <img src="packers.jpg" data-thumb="images/toystory.jpg" alt="packers" />
+                    <a href="http://dev7studios.com"><img src="badgers.jpg" data-thumb="images/badgers.jpg" alt="Badgers" title="Go Badgers" /></a>
+                    <img src="steelers.jpg" data-thumb="images/steelers.jpg" alt="steelers" data-transition="slideInLeft" />
+                    <img src="broncos.jpg" data-thumb="images/broncos.jpg" alt="Broncos" title="Go Broncos" />
+                </div>
+                <div id="htmlcaption" class="nivo-html-caption">
+                    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+                </div>
+            </div>
+        </nav>
+
+
+        <section>
+            <figure><img src="skater.jpg">
+                <figcaption> This skater is a champion </figcaption>
+            </figure>
+            <figure><img src="skater.jpg">
+                <figcaption> This skater is a champion </figcaption>
+            </figure>
+            <figure><img src="skater.jpg">
+                <figcaption> This skater is a champion </figcaption>
+            </figure>
+            <figure><img src="skater.jpg">
+                <figcaption> This skater is a champion </figcaption>
+            </figure>
+            <figure><img src="skater.jpg">
+                <figcaption> This skater is a champion </figcaption>
+            </figure>
+            <figure><img src="skater.jpg">
+                <figcaption> This skater is a champion </figcaption>
+            </figure>
+
+
+        </section>
+
+        <footer>
+            Footer
+        </footer>
+    </div>
+    <!--End wrap-->
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+</body>
+
+
+</html>
