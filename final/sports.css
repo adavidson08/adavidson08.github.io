@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+body {
+    font-family: 'Teko', sans-serif;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto;
+}
+
+#wrap {
+    width: 90%;
+    margin: 0 auto;
+    border: 9px solid white;
+    padding: 10px;
+}
+
+header img {
+    width: 75%;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    background-image: black;
+    margin: 0px 0px;
+}
+
+nav {
+    background-color: dimgray;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    margin: 10px 60px;
+    border: 4px white solid;
+}
+
+nav li {
+    display: inline;
+    padding: 20px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a {
+    color: black;
+    text-decoration: underline;
+    padding: 10px 30px;
+}
+
+nav a:hover {
+    color: antiquewhite;
+    background-color: skyblue;
+}
+
+section {
+    padding: 10px;
+    background-color: none;
+    overflow: auto;
+    margin: 10px;
+
+}
+
+h1 {
+    color: White;
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Teko', sans-serif;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+    padding: 0px;
+    color: white;
+}
+
+.bgpic {
+    float: right;
+    width: 25%;
+}
+
+
+footer {
+    background-color: dimgray;
+    border: white 2px solid;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    font-family: Verdana;
+}
+
+
+.first {
+    float: left;
+    width: 30%;
+}
+
+.second {
+    float: left;
+    width: 30%;
+}
+
+.third {
+    float: left;
+    width: 30%;
+}

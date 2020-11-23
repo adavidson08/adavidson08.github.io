@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Art in Boise!</title>
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="arts.css" rel="stylesheet" type="text/css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180195644-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-180195644-1');
+    </script>
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div class="slider-wrapper theme-bar">
+                <div id="slider" class="nivoSlider">
+                    <img src="images/freaks.jpg" data-thumb="images/freaks.jpg" alt="Boise Trees" />
+                    <img src="images/artinthepark.jpg" data-thumb="images/artinthepark.jpg" alt="Boise Sunset" />
+                    <img src="images/morrisoncenter.jpg" data-thumb="images/morrisoncenter.jpg" alt="Boise Trees" />
+                    <img src="images/pretty.jpg" data-thumb="images/pretty.jpg" alt="Boise Trees" />
+                </div>
+                <div id="htmlcaption" class="nivo-html-caption">
+                    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+                </div>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="boise.html">Homepage</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="outdoors.html">Outdoors</a></li>
+                <li><a href="arts.html">Art</a></li>
+                <li><a href="restaurants.html"> Restaurants</a></li>
+            </ul>
+        </nav>
+        <section>
+
+            <h1>Plan your day around Art in Boise! </h1>
+            <p> Boise has many artisitc, fun, and interesting things to particpate in and enjoy! There is the famous Morrison center, where Broadway plays come and give a perfomance! Some of the plays that have come in the past have been The Lion King, Fiddler on the Roof, Hamilton, and Wizard of Oz! Every June, Boise hosts an event/ festival called Art in the Park. In this event, there are different vendors that each sell their own items ranging from pottery, paintings, photography, Rugs, and drawings. It is also very kid friendly because there are different tents that host them for finger painting, drawing competitions, and pony rides. The admission fee is free! Another fun place to visit is called "Freak Alley". Freak Alley is known for it's exciting pnaitngs that are made by street artists, that each have their own meaning. In Boise there is also a pottery painting place that is super cute and kid friendly! It is off of Vista and Curtis and you pick a piece of pottery and paint it. There is also an Orchestra in Boise called the Phil-Harmonics, which plays commonly more in the summer and winter time, traveling and participating in different competitions.
+                <div style="margin: 0 auto; text-align: center;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/f-MwxBIawtY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        </section>
+
+
+        <footer>
+            <p>&copy; 2020 Boise the City of Trees Inc.</p>
+        </footer>
+    </div>
+    <!--close wrap div-->
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+    </script>
+</body></html>
